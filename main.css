@@ -1,0 +1,41 @@
+button {
+  background-color: silver
+}
+
+body {
+  background-image: radial-gradient(purple, gold, blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+h1 {
+  font-family: fantasy;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px
+}
+
+.InputSection {
+  margin: 20px 0px 40px 0px;
+  width: 200px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.addoption {
+  margin-top: 10px;
+}
